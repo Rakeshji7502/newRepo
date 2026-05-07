@@ -12,6 +12,7 @@ const BookContainer = () => {
         <input type="number" name="" id="" onChange={(e)=>setAddBook(e.target.value)} />
      <button onClick={()=>dispatch({type:"Buy_book",payload:bookCount})}>Buy Book</button>
      <button onClick={()=>dispatch({type:"add_book",payload:addBook})}>Add Book</button>
+     <h1>Rakesh</h1>
     </div>
   )
 }
